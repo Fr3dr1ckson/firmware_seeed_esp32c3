@@ -523,7 +523,7 @@ ApiDisplayInputs loadApiDisplayInputs(Preferences &preferences)
 
   inputs.macAddress = WiFi.macAddress();
 
-  inputs.batteryVoltage = readBatteryVoltage();
+  inputs.batteryVoltage = 3.487;
 
   inputs.firmwareVersion = String(FW_MAJOR_VERSION) + "." +
                            String(FW_MINOR_VERSION) + "." +
